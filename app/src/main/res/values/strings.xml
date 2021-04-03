@@ -4,17 +4,16 @@
     //Abanob start
 
 
-
     //Abanob end
 
     //Asmaa start
-
-
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
 
     //Asmaa end
 
     //Donia start
-
 
 
     //Donia end
