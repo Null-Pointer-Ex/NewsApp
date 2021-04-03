@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">news</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Register" />
 
     //Abanob start
-
 
 
     //Abanob end
@@ -10,11 +14,9 @@
     //Asmaa start
 
 
-
     //Asmaa end
 
     //Donia start
-
 
 
     //Donia end
