@@ -6,9 +6,8 @@ import com.nullpointer.newsapp.datasource.NewsModel
 import com.nullpointer.newsapp.datasource.RepositoryImp
 
 class NewsViewModel : ViewModel() {
-    val weatherInfo = MutableLiveData<NewsModel>()
+    val newsInfo = MutableLiveData<NewsModel>()
     val loading = MutableLiveData<Boolean>()
-    val error = MutableLiveData<String>()
 
 
 }
