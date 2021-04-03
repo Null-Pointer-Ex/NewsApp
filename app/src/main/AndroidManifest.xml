@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nullpointer.newsapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nullpointer.newsapp"
+    tools:ignore="ExtraText">
 
     <application
         android:allowBackup="true"
@@ -18,4 +20,22 @@
         </activity>
     </application>
 
+
+    //Abanob start
+
+
+
+    //Abanob end
+
+    //Asmaa start
+
+
+
+    //Asmaa end
+
+    //Donia start
+
+
+
+    //Donia end
 </manifest>
