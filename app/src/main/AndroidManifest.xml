@@ -15,14 +15,14 @@
         tools:ignore="ExtraText">
         <activity android:name=".view.Login.LoginActivity">
         <activity android:name=".view.Registeration">
+
+        </activity>
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".view.MainActivity">
-
         </activity>
     </application>
 
