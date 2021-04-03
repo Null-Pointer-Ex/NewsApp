@@ -4,13 +4,15 @@
     package="com.nullpointer.newsapp"
     tools:ignore="ExtraText">
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.News">
+        android:theme="@style/Theme.News"
+        tools:ignore="ExtraText">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,24 +20,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        //Abanob start
+
+
+
+        //Abanob end
+
+        //Asmaa start
+
+
+
+        //Asmaa end
+
+        //Donia start
+
+
+
+        //Donia end
+
     </application>
-
-
-    //Abanob start
-
-
-
-    //Abanob end
-
-    //Asmaa start
-
-
-
-    //Asmaa end
-
-    //Donia start
-
-
-
-    //Donia end
 </manifest>
