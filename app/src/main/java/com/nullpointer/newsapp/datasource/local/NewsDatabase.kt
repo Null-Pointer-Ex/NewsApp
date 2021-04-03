@@ -6,12 +6,10 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.nullpointer.newsapp.datasource.NewsModel
 
-class NewsDatabase {
-
     @Database(entities = [NewsModel::class],version = 1,exportSchema = false)
  //   @TypeConverters(DataConverter::class)
     abstract class NewsDatabase : RoomDatabase(){
-        abstract fun weatherDao(): NewsDao
+        abstract fun newsDao(): NewsDao
 
         companion object {
             //singleton
@@ -32,4 +30,3 @@ class NewsDatabase {
             }
         }
     }
-}
